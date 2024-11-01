@@ -1,0 +1,68 @@
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table {
+    background-color: #F5EDFF;
+    border-bottom: 1px solid #007FFF;
+    border-left: 1px solid #007FFF;
+    border-right: 1px solid #007FFF;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-collapse: separate;
+    margin-top: 0;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table th {
+    padding-left: 1em;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table a {
+    text-decoration: none! important;
+}
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table .snapwizard_dashicons span {
+    padding-top: 0.3em;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table input,
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table select,
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table textarea {
+    width: 35%;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table input[type="button"] {
+    width: auto;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table #snapwizard_post_categories,
+.toplevel_page_snapwizard-admin-page.wp-admin #wpcontent #wpbody-content .admin-homepage .form-table #snapwizard_media_categories {
+    height: 200px;
+}
+
+.toplevel_page_snapwizard-admin-page.wp-admin #snapwizard_actions_process_ajax_log {
+    display: none;
+    margin-top: 1em;
+}
+
+/* Style the tab wrapper */
+.toplevel_page_snapwizard-admin-page.wp-admin .nav-tab-wrapper {
+    display: flex;
+}
+
+/* Style the individual tabs */
+.toplevel_page_snapwizard-admin-page.wp-admin .nav-tab {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Style the active tab */
+.toplevel_page_snapwizard-admin-page.wp-admin .nav-tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* Hover effect */
+.toplevel_page_snapwizard-admin-page.wp-admin .nav-tab:hover {
+    background-color: #e0e0e0;
+}
